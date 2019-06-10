@@ -1,0 +1,23 @@
+
+body{
+    background-color: black;
+    color: white;
+}
+#underscores {
+    color: white;
+}
+
+.row {
+    padding-top: 2%;
+}
+
+#foo {
+    height: 200px;
+    width: 300px;
+    padding: 5%;
+}
+#soad {
+    height: 200px;
+    width: 275px;
+    padding: 5%;
+}

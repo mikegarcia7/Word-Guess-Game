@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="container">
+
+    <div class="header row">
+        <div class="col-sm">
+                &nbsp;
+        </div>
+        <div class="col-sm">
+            <h1 style="text-align: center">Hangman</h1>
+        </div>
+        <div class="col-sm">
+                &nbsp;
+        </div>
+    </div>
+    
+    <div class="subheader row">
+            <div class="col-sm">
+                    &nbsp;
+            </div>
+            <div class="col-sm">
+                <h2 style="text-align: center">Rock & Roll!</h3>
+            </div>
+            <div class="col-sm">
+            &nbsp;
+            </div>
+        </div>
+    
+    <div class="subheadertwo row">
+        <div class="col-sm">
+            <img id="foo" src="https://www.gannett-cdn.com/presto/2018/10/18/PMJS/af369e4e-59cb-40ea-bb56-b113b0f2bb37-Foofighters18_02_ent_wood.jpg?crop=3845,2163,x0,y155&width=3200&height=1680&fit=bounds">
+                &nbsp;
+        </div>
+        <div class="col-sm">
+            <h3 style="text-align: center">Press any key to get started!</h3>
+        </div>
+        <div class="col-sm">
+            <img id="soad" src="https://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/338/2018/12/21094002/tmp05ed4b2a-d026-46a5-ac0a-dfc037c66403.jpg">
+        &nbsp;
+        </div>
+    </div>
+
+    <div class="underscore row">
+        <div class="col-sm">
+                &nbsp;
+        </div>
+        <div class="col-sm">
+            <pre id="underscores" style="text-align: center"></pre>
+        </div>
+        <div class="col-sm">
+        &nbsp;
+        </div>
+    </div>
+
+    <div class="guessesremaining row">
+            <div class="col-sm">
+                    &nbsp;
+            </div>
+            <div class="col-sm">
+                    <p style="text-align: center">Number of Guesses Remaining</p>
+                    <div id="remainingGuesses" style="text-align: center">5</div>
+            </div>
+            <div class="col-sm">
+            &nbsp;
+            </div>
+    </div>
+
+    <div class="rightwrong row">
+            <div class="col-3">
+                    &nbsp;
+            </div>
+            <div class="col-3">
+                    <p style="text-align: center">Right Guesses</p>
+                    <div id="rightGuess" style="text-align: center"></div>
+            </div>
+            <div class="col-3">
+                    <p style="text-align: center">Wrong Guesses</p>
+                    <div id="wrongGuess" style="text-align: center"></div>
+            </div>
+            <div class="col-3">
+            &nbsp;
+            </div>
+    </div>
+    
+    <div class="winslosses row">
+            <div class="col-3">
+                    &nbsp;
+            </div>
+            <div class="col-3">
+                    <p style="text-align: center">Wins</p>
+                    <div id="winCounter" style="text-align: center">0</div>
+            </div>
+            <div class="col-3">
+                    <p style="text-align: center">Losses</p>
+                    <div id="lossCounter" style="text-align: center">0</div>
+            </div>
+            <div class="col-3">
+            &nbsp;
+            </div>
+    </div>
+</div>
+    
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
